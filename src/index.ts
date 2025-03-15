@@ -62,7 +62,7 @@ function handleUserChoice(choice: string) {
           if (success) {
             console.log("!Pelicula Vista!\n");
           } else {
-            console.log("No se encontro ninguna tarea con ese id.\n");
+            console.log("No se encontro ninguna pelicula con ese id.\n");
           }
           promptUser();
         }
